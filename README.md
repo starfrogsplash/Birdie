@@ -40,7 +40,7 @@ you will need to create an .env file with the params in order to connect to the 
     a. Install the dependencies
 
    ```bash
-   yarn install
+   yarn
    ```
 
    b. Run the application (will start on port `3000`)
@@ -48,3 +48,6 @@ you will need to create an .env file with the params in order to connect to the 
    ```bash
    yarn start
    ```
+
+
+   enter a care_recipient_id in the search bar to request data
