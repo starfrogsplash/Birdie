@@ -2,7 +2,6 @@
 # Birdie
 
 
-https://user-images.githubusercontent.com/22579826/125699997-8e859c46-4564-41f6-920f-10c8dccfa91a.mov
 
 
 ## Usage
