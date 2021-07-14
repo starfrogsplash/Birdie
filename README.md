@@ -3,6 +3,14 @@
 
 ## Usage
 
+
+you will need to create an .env file with the params in order to connect to the database
+`DB_HOST`
+`DB_PORT`
+`DB_USER`
+`DB_PASSWORD`
+`DB_DATABASE`
+
 1. Start the API. (Run the following commands within the `backend` folder)
 
    a. Install the dependencies
@@ -22,12 +30,12 @@
     a. Install the dependencies
 
    ```bash
-   npm install
+   yarn install
    ```
 
    b. Run the application (will start on port `3000`)
 
    ```bash
-   npm start
+   yarn start
    ```
 # Birdie
