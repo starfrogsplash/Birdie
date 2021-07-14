@@ -55,7 +55,7 @@ const App = () => {
       if (typeof value !== 'object') {
         return (
           <div key={i} className="flex flex-row container">
-            <h4 className="mr-2">{key}:</h4>
+            <h4 className="mr-2">{key.split('_').join(' ')}:</h4>
             <div className="overflow-x-auto border border-gray-400 flex-1">
               <h4 className="whitespace-nowrap">{`${value}`}</h4>
             </div>
@@ -69,7 +69,7 @@ const App = () => {
   return (
     <div className="container mx-auto pt-7 bg-gray-300">
       <form className="flex justify-center text-xl" onSubmit={handleSubmit}>
-        <label htmlFor='search' className='bg-purple-500 rounded-l-xl p-2 text-gray-50'>Enter Id: </label>
+        <label htmlFor='search' className='bg-purple-500 rounded-l-xl p-2 text-gray-50'>Enter Care Recipient id: </label>
         <input name='search' className="w-2/4 rounded-l p-2" type="text" value={value || ''} onChange={handleChange} required />
         <input className="rounded-r p-2 text-gray-50 bg-purple-500 hover:bg-purple-700 focus:outline-none focus:ring-2 focus:ring-purple-600 focus:ring-opacity-50" type="submit" value="Submit!" />
       </form>
