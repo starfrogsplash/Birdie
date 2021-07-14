@@ -41,4 +41,3 @@ you will need to create an .env file with the params in order to connect to the 
    ```bash
    yarn start
    ```
-# Birdie
