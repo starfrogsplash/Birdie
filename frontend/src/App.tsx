@@ -90,10 +90,10 @@ const App = () => {
 
                 <div className="mt-6 ">
                   <div className="rounded-md p-1 mt-6 space-y-1 bg-gray-100">
-                    <div>care_recipient_id: {item.care_recipient_id}</div>
-                    <div>caregiver_id: {item.id}</div>
-                    <div>visit_id: {item.visit_id}</div>
-                    <div>caregiver_id: {item.caregiver_id}</div>
+                    <div>care recipient id: {item.care_recipient_id}</div>
+                    <div>caregiver id: {item.id}</div>
+                    <div>visit id: {item.visit_id}</div>
+                    <div>caregiver id: {item.caregiver_id}</div>
                   </div>
 
                   <div className={`rounded-md p-1 mt-6 m-1space-y-1 ${colourMapping[item.event_type].backgroundColour}`}>
